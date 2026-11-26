@@ -1,0 +1,379 @@
+<!DOCTYPE ispTLA>
+<ispTLA>
+ <CreationDate>Thu Nov 26 14:45:29 2026</CreationDate>
+ <XCFFileName/>
+ <CableSetting>
+  <IsTRSTConnected val="false"/>
+  <TRSTSetting val="0"/>
+  <IsBSCANConnected val="false"/>
+  <BSCANSetting val="0"/>
+  <CableType val="USB2"/>
+  <PortAddress val="0"/>
+  <PortSetting val="0"/>
+  <TCKDelay val="3"/>
+ </CableSetting>
+ <DeviceCount>1</DeviceCount>
+ <Device>
+  <DeviceIndex>0</DeviceIndex>
+  <DeviceName>1. LIFCL-17</DeviceName>
+  <DeviceID>0x010F0043 (debug enabled)</DeviceID>
+  <HasIspTRACY>true</HasIspTRACY>
+  <HasJTAG2WB>false</HasJTAG2WB>
+  <SERDES/>
+  <IRBypassLen>8</IRBypassLen>
+  <RVLFileName>my_soc.rvl</RVLFileName>
+  <RVSFileName>my_soc.rvs</RVSFileName>
+  <LACoreCount>1</LACoreCount>
+  <WinUI CoreIndex="0" CoreType="LA">
+   <TraceSigTreeData>
+    <TraceSignal Color="" IsHidden="false" Name="apb_paddr" NodeType="1" PortIndex="-1">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:31" NodeType="2" PortIndex="269"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:30" NodeType="2" PortIndex="268"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:29" NodeType="2" PortIndex="267"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:28" NodeType="2" PortIndex="266"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:27" NodeType="2" PortIndex="265"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:26" NodeType="2" PortIndex="264"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:25" NodeType="2" PortIndex="263"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:24" NodeType="2" PortIndex="262"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:23" NodeType="2" PortIndex="261"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:22" NodeType="2" PortIndex="260"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:21" NodeType="2" PortIndex="259"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:20" NodeType="2" PortIndex="258"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:19" NodeType="2" PortIndex="257"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:18" NodeType="2" PortIndex="256"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:17" NodeType="2" PortIndex="255"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:16" NodeType="2" PortIndex="254"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:15" NodeType="2" PortIndex="253"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:14" NodeType="2" PortIndex="252"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:13" NodeType="2" PortIndex="251"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:12" NodeType="2" PortIndex="250"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:11" NodeType="2" PortIndex="249"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:10" NodeType="2" PortIndex="248"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:9" NodeType="2" PortIndex="247"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:8" NodeType="2" PortIndex="246"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:7" NodeType="2" PortIndex="245"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:6" NodeType="2" PortIndex="244"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:5" NodeType="2" PortIndex="243"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:4" NodeType="2" PortIndex="242"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:3" NodeType="2" PortIndex="241"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:2" NodeType="2" PortIndex="240"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:1" NodeType="2" PortIndex="239"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_paddr:0" NodeType="2" PortIndex="238"/>
+    </TraceSignal>
+    <TraceSignal Color="" IsHidden="false" Name="apb_pselx" NodeType="0" PortIndex="237"/>
+    <TraceSignal Color="" IsHidden="false" Name="apb_penable" NodeType="0" PortIndex="236"/>
+    <TraceSignal Color="" IsHidden="false" Name="apb_pready" NodeType="0" PortIndex="235"/>
+    <TraceSignal Color="" IsHidden="false" Name="apb_prdata" NodeType="1" PortIndex="-1">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:31" NodeType="2" PortIndex="234"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:30" NodeType="2" PortIndex="233"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:29" NodeType="2" PortIndex="232"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:28" NodeType="2" PortIndex="231"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:27" NodeType="2" PortIndex="230"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:26" NodeType="2" PortIndex="229"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:25" NodeType="2" PortIndex="228"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:24" NodeType="2" PortIndex="227"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:23" NodeType="2" PortIndex="226"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:22" NodeType="2" PortIndex="225"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:21" NodeType="2" PortIndex="224"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:20" NodeType="2" PortIndex="223"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:19" NodeType="2" PortIndex="222"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:18" NodeType="2" PortIndex="221"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:17" NodeType="2" PortIndex="220"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:16" NodeType="2" PortIndex="219"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:15" NodeType="2" PortIndex="218"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:14" NodeType="2" PortIndex="217"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:13" NodeType="2" PortIndex="216"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:12" NodeType="2" PortIndex="215"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:11" NodeType="2" PortIndex="214"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:10" NodeType="2" PortIndex="213"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:9" NodeType="2" PortIndex="212"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:8" NodeType="2" PortIndex="211"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:7" NodeType="2" PortIndex="210"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:6" NodeType="2" PortIndex="209"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:5" NodeType="2" PortIndex="208"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:4" NodeType="2" PortIndex="207"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:3" NodeType="2" PortIndex="206"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:2" NodeType="2" PortIndex="205"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:1" NodeType="2" PortIndex="204"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_prdata:0" NodeType="2" PortIndex="203"/>
+    </TraceSignal>
+    <TraceSignal Color="" IsHidden="false" Name="apb_pwrite" NodeType="0" PortIndex="202"/>
+    <TraceSignal Color="" IsHidden="false" Name="apb_pwdata" NodeType="1" PortIndex="-1">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:31" NodeType="2" PortIndex="201"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:30" NodeType="2" PortIndex="200"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:29" NodeType="2" PortIndex="199"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:28" NodeType="2" PortIndex="198"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:27" NodeType="2" PortIndex="197"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:26" NodeType="2" PortIndex="196"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:25" NodeType="2" PortIndex="195"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:24" NodeType="2" PortIndex="194"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:23" NodeType="2" PortIndex="193"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:22" NodeType="2" PortIndex="192"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:21" NodeType="2" PortIndex="191"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:20" NodeType="2" PortIndex="190"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:19" NodeType="2" PortIndex="189"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:18" NodeType="2" PortIndex="188"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:17" NodeType="2" PortIndex="187"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:16" NodeType="2" PortIndex="186"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:15" NodeType="2" PortIndex="185"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:14" NodeType="2" PortIndex="184"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:13" NodeType="2" PortIndex="183"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:12" NodeType="2" PortIndex="182"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:11" NodeType="2" PortIndex="181"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:10" NodeType="2" PortIndex="180"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:9" NodeType="2" PortIndex="179"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:8" NodeType="2" PortIndex="178"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:7" NodeType="2" PortIndex="177"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:6" NodeType="2" PortIndex="176"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:5" NodeType="2" PortIndex="175"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:4" NodeType="2" PortIndex="174"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:3" NodeType="2" PortIndex="173"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:2" NodeType="2" PortIndex="172"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:1" NodeType="2" PortIndex="171"/>
+     <TraceSignal Color="" IsHidden="false" Name="apb_pwdata:0" NodeType="2" PortIndex="170"/>
+    </TraceSignal>
+    <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/addr_a_i" NodeType="1" PortIndex="-1">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/addr_a_i:6" NodeType="2" PortIndex="169"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/addr_a_i:5" NodeType="2" PortIndex="168"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/addr_a_i:4" NodeType="2" PortIndex="167"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/addr_a_i:3" NodeType="2" PortIndex="166"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/addr_a_i:2" NodeType="2" PortIndex="165"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/addr_a_i:1" NodeType="2" PortIndex="164"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/addr_a_i:0" NodeType="2" PortIndex="163"/>
+    </TraceSignal>
+    <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_en_a_i" NodeType="0" PortIndex="162"/>
+    <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o" NodeType="1" PortIndex="-1">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:31" NodeType="2" PortIndex="161"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:30" NodeType="2" PortIndex="160"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:29" NodeType="2" PortIndex="159"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:28" NodeType="2" PortIndex="158"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:27" NodeType="2" PortIndex="157"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:26" NodeType="2" PortIndex="156"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:25" NodeType="2" PortIndex="155"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:24" NodeType="2" PortIndex="154"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:23" NodeType="2" PortIndex="153"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:22" NodeType="2" PortIndex="152"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:21" NodeType="2" PortIndex="151"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:20" NodeType="2" PortIndex="150"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:19" NodeType="2" PortIndex="149"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:18" NodeType="2" PortIndex="148"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:17" NodeType="2" PortIndex="147"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:16" NodeType="2" PortIndex="146"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:15" NodeType="2" PortIndex="145"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:14" NodeType="2" PortIndex="144"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:13" NodeType="2" PortIndex="143"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:12" NodeType="2" PortIndex="142"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:11" NodeType="2" PortIndex="141"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:10" NodeType="2" PortIndex="140"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:9" NodeType="2" PortIndex="139"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:8" NodeType="2" PortIndex="138"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:7" NodeType="2" PortIndex="137"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:6" NodeType="2" PortIndex="136"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:5" NodeType="2" PortIndex="135"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:4" NodeType="2" PortIndex="134"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:3" NodeType="2" PortIndex="133"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:2" NodeType="2" PortIndex="132"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:1" NodeType="2" PortIndex="131"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:0" NodeType="2" PortIndex="130"/>
+    </TraceSignal>
+    <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i" NodeType="1" PortIndex="-1">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:31" NodeType="2" PortIndex="129"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:30" NodeType="2" PortIndex="128"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:29" NodeType="2" PortIndex="127"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:28" NodeType="2" PortIndex="126"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:27" NodeType="2" PortIndex="125"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:26" NodeType="2" PortIndex="124"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:25" NodeType="2" PortIndex="123"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:24" NodeType="2" PortIndex="122"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:23" NodeType="2" PortIndex="121"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:22" NodeType="2" PortIndex="120"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:21" NodeType="2" PortIndex="119"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:20" NodeType="2" PortIndex="118"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:19" NodeType="2" PortIndex="117"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:18" NodeType="2" PortIndex="116"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:17" NodeType="2" PortIndex="115"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:16" NodeType="2" PortIndex="114"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:15" NodeType="2" PortIndex="113"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:14" NodeType="2" PortIndex="112"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:13" NodeType="2" PortIndex="111"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:12" NodeType="2" PortIndex="110"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:11" NodeType="2" PortIndex="109"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:10" NodeType="2" PortIndex="108"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:9" NodeType="2" PortIndex="107"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:8" NodeType="2" PortIndex="106"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:7" NodeType="2" PortIndex="105"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:6" NodeType="2" PortIndex="104"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:5" NodeType="2" PortIndex="103"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:4" NodeType="2" PortIndex="102"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:3" NodeType="2" PortIndex="101"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:2" NodeType="2" PortIndex="100"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:1" NodeType="2" PortIndex="99"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:0" NodeType="2" PortIndex="98"/>
+    </TraceSignal>
+    <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/control_reg_i" NodeType="1" PortIndex="-1">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/control_reg_i:7" NodeType="2" PortIndex="97"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/control_reg_i:6" NodeType="2" PortIndex="96"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/control_reg_i:5" NodeType="2" PortIndex="95"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/control_reg_i:4" NodeType="2" PortIndex="94"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/control_reg_i:3" NodeType="2" PortIndex="93"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/control_reg_i:2" NodeType="2" PortIndex="92"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/control_reg_i:1" NodeType="2" PortIndex="91"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/control_reg_i:0" NodeType="2" PortIndex="90"/>
+    </TraceSignal>
+    <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/start_i" NodeType="0" PortIndex="89"/>
+    <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/cpol" NodeType="0" PortIndex="88"/>
+    <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/cs_sel" NodeType="1" PortIndex="-1">
+     <BusRadix Radix="0"/>
+     <IsExpanded Expand="false"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/cs_sel:2" NodeType="2" PortIndex="87"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/cs_sel:1" NodeType="2" PortIndex="86"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/cs_sel:0" NodeType="2" PortIndex="85"/>
+    </TraceSignal>
+    <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/is_read" NodeType="0" PortIndex="84"/>
+    <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/busy_o" NodeType="0" PortIndex="83"/>
+    <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/done_o" NodeType="0" PortIndex="82"/>
+    <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/state" NodeType="1" PortIndex="-1">
+     <BusRadix Radix="RVL_ENUM_spi_master_top_inst_u_spi_master_state"/>
+     <IsExpanded Expand="false"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/state:2" NodeType="2" PortIndex="81"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/state:1" NodeType="2" PortIndex="80"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/state:0" NodeType="2" PortIndex="79"/>
+    </TraceSignal>
+    <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_addr_o" NodeType="1" PortIndex="-1">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_addr_o:8" NodeType="2" PortIndex="78"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_addr_o:7" NodeType="2" PortIndex="77"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_addr_o:6" NodeType="2" PortIndex="76"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_addr_o:5" NodeType="2" PortIndex="75"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_addr_o:4" NodeType="2" PortIndex="74"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_addr_o:3" NodeType="2" PortIndex="73"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_addr_o:2" NodeType="2" PortIndex="72"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_addr_o:1" NodeType="2" PortIndex="71"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_addr_o:0" NodeType="2" PortIndex="70"/>
+    </TraceSignal>
+    <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_rd_data_i" NodeType="1" PortIndex="-1">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_rd_data_i:7" NodeType="2" PortIndex="69"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_rd_data_i:6" NodeType="2" PortIndex="68"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_rd_data_i:5" NodeType="2" PortIndex="67"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_rd_data_i:4" NodeType="2" PortIndex="66"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_rd_data_i:3" NodeType="2" PortIndex="65"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_rd_data_i:2" NodeType="2" PortIndex="64"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_rd_data_i:1" NodeType="2" PortIndex="63"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_rd_data_i:0" NodeType="2" PortIndex="62"/>
+    </TraceSignal>
+    <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_we_o" NodeType="0" PortIndex="61"/>
+    <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_wr_data_o" NodeType="1" PortIndex="-1">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_wr_data_o:7" NodeType="2" PortIndex="60"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_wr_data_o:6" NodeType="2" PortIndex="59"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_wr_data_o:5" NodeType="2" PortIndex="58"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_wr_data_o:4" NodeType="2" PortIndex="57"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_wr_data_o:3" NodeType="2" PortIndex="56"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_wr_data_o:2" NodeType="2" PortIndex="55"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_wr_data_o:1" NodeType="2" PortIndex="54"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bram_wr_data_o:0" NodeType="2" PortIndex="53"/>
+    </TraceSignal>
+    <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/byte_cnt" NodeType="1" PortIndex="-1">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/byte_cnt:8" NodeType="2" PortIndex="52"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/byte_cnt:7" NodeType="2" PortIndex="51"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/byte_cnt:6" NodeType="2" PortIndex="50"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/byte_cnt:5" NodeType="2" PortIndex="49"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/byte_cnt:4" NodeType="2" PortIndex="48"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/byte_cnt:3" NodeType="2" PortIndex="47"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/byte_cnt:2" NodeType="2" PortIndex="46"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/byte_cnt:1" NodeType="2" PortIndex="45"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/byte_cnt:0" NodeType="2" PortIndex="44"/>
+    </TraceSignal>
+    <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/byte_count_i" NodeType="1" PortIndex="-1">
+     <BusRadix Radix="3"/>
+     <IsExpanded Expand="false"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/byte_count_i:8" NodeType="2" PortIndex="43"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/byte_count_i:7" NodeType="2" PortIndex="42"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/byte_count_i:6" NodeType="2" PortIndex="41"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/byte_count_i:5" NodeType="2" PortIndex="40"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/byte_count_i:4" NodeType="2" PortIndex="39"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/byte_count_i:3" NodeType="2" PortIndex="38"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/byte_count_i:2" NodeType="2" PortIndex="37"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/byte_count_i:1" NodeType="2" PortIndex="36"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/byte_count_i:0" NodeType="2" PortIndex="35"/>
+    </TraceSignal>
+    <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/shift_reg_tx" NodeType="1" PortIndex="-1">
+     <BusRadix Radix="0"/>
+     <IsExpanded Expand="false"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/shift_reg_tx:7" NodeType="2" PortIndex="34"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/shift_reg_tx:6" NodeType="2" PortIndex="33"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/shift_reg_tx:5" NodeType="2" PortIndex="32"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/shift_reg_tx:4" NodeType="2" PortIndex="31"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/shift_reg_tx:3" NodeType="2" PortIndex="30"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/shift_reg_tx:2" NodeType="2" PortIndex="29"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/shift_reg_tx:1" NodeType="2" PortIndex="28"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/shift_reg_tx:0" NodeType="2" PortIndex="27"/>
+    </TraceSignal>
+    <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/shift_reg_rx" NodeType="1" PortIndex="-1">
+     <BusRadix Radix="0"/>
+     <IsExpanded Expand="false"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/shift_reg_rx:7" NodeType="2" PortIndex="26"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/shift_reg_rx:6" NodeType="2" PortIndex="25"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/shift_reg_rx:5" NodeType="2" PortIndex="24"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/shift_reg_rx:4" NodeType="2" PortIndex="23"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/shift_reg_rx:3" NodeType="2" PortIndex="22"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/shift_reg_rx:2" NodeType="2" PortIndex="21"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/shift_reg_rx:1" NodeType="2" PortIndex="20"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/shift_reg_rx:0" NodeType="2" PortIndex="19"/>
+    </TraceSignal>
+    <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bit_cnt" NodeType="1" PortIndex="-1">
+     <BusRadix Radix="0"/>
+     <IsExpanded Expand="false"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bit_cnt:2" NodeType="2" PortIndex="18"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bit_cnt:1" NodeType="2" PortIndex="17"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/bit_cnt:0" NodeType="2" PortIndex="16"/>
+    </TraceSignal>
+    <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/sclk_int" NodeType="0" PortIndex="15"/>
+    <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/cs_n_o" NodeType="1" PortIndex="-1">
+     <BusRadix Radix="0"/>
+     <IsExpanded Expand="false"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/cs_n_o:2" NodeType="2" PortIndex="14"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/cs_n_o:1" NodeType="2" PortIndex="13"/>
+     <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/cs_n_o:0" NodeType="2" PortIndex="12"/>
+    </TraceSignal>
+    <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/miso_i" NodeType="0" PortIndex="11"/>
+    <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/u_spi_master/mosi_o" NodeType="0" PortIndex="10"/>
+    <TraceSignal Color="" IsHidden="false" Name="F_CSn" NodeType="0" PortIndex="9"/>
+    <TraceSignal Color="" IsHidden="false" Name="F_MISO" NodeType="0" PortIndex="8"/>
+    <TraceSignal Color="" IsHidden="false" Name="F_MOSI" NodeType="0" PortIndex="7"/>
+    <TraceSignal Color="" IsHidden="false" Name="F_sclk" NodeType="0" PortIndex="6"/>
+    <TraceSignal Color="" IsHidden="false" Name="adc_sclk_o" NodeType="0" PortIndex="5"/>
+    <TraceSignal Color="" IsHidden="false" Name="adc_sdio_io" NodeType="0" PortIndex="4"/>
+    <TraceSignal Color="" IsHidden="false" Name="dac_sen_o" NodeType="0" PortIndex="3"/>
+    <TraceSignal Color="" IsHidden="false" Name="adc_sen_o" NodeType="0" PortIndex="2"/>
+    <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/first_bit_reg" NodeType="0" PortIndex="1"/>
+    <TraceSignal Color="" IsHidden="false" Name="spi_master_top_inst/is_input_mode" NodeType="0" PortIndex="0"/>
+   </TraceSigTreeData>
+   <TriggerUI PreSelect="1" PreSelectType="0" UserSelect="0" UserSelectPos="0"/>
+   <CoreRun Run="true"/>
+   <CoreWndUIData>
+    <ClockFrequency Frequency="-1.0" Unit="ns"/>
+   </CoreWndUIData>
+  </WinUI>
+ </Device>
+</ispTLA>

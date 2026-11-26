@@ -29,17 +29,6 @@ if {[file isfile $radiant_project]} {
     set project_xml [read $project_channel]
     close $project_channel
 
-    set project_without_reveal [regsub -all \
-        {(?s)[ \t]*<Source name="[^"]+"[^>]*type_short="(Reveal|RVA)"[^>]*>.*?</Source>[ \t]*\r?\n?} \
-        $project_xml "\n"]
-    if {$project_without_reveal ne $project_xml} {
-        set project_channel [open $radiant_project w]
-        puts -nonewline $project_channel $project_without_reveal
-        close $project_channel
-        set project_xml $project_without_reveal
-        puts "Removed Reveal debugger and analyzer sources from the project."
-    }
-
     foreach {element source_name} [regexp -all -inline {<Source name="([^"]+)"} $project_xml] {
         lappend registered_sources [file normalize [file join $project_root $source_name]]
     }

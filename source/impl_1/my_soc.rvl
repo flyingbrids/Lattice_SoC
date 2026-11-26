@@ -1,0 +1,330 @@
+<Project Date="2026-11-26" ModBy="Inserter" Name="C:/Project/Lattice_SoC/source/impl_1/my_soc.rvl" SigType="0">
+    <IP Version="1_6_042617"/>
+    <Design DesignEntry="Schematic/Mixed HDL" DesignName="my_soc" DeviceFamily="LIFCL" DeviceName="LIFCL-17" JTAG="hard" Stage="presyn" Synthesis="synplify"/>
+    <Core ID="0" Insert="1" InsertDataset="0" Name="my_soc_Top_LA0" Reveal_sig="720692867">
+        <Setting>
+            <Clock EnableClk="" EnableClk_Pri="0" SampleClk="apb_clk" SampleEnable="0"/>
+            <TraceBuffer BitTimeStamp="0" BufferDepth="256" Implementation="0" IncTrigSig="0" hasTimeStamp="0"/>
+            <Capture MinSamplesPerTrig="8" Mode="0"/>
+            <Event CntEnable="0" MaxEventCnt="8"/>
+            <TrigOut EnableTrigOut="0" MinPulseWidth="0" Polarity="0" TrigOutNet="reveal_debug_my_soc_Top_LA0_net" TrigOutNetType="1"/>
+            <DistRAM Disable="0"/>
+        </Setting>
+        <Dataset Name="Base">
+            <Trace>
+                <Sig Name="spi_master_top_inst/is_input_mode" Type="SIG"/>
+                <Sig Name="spi_master_top_inst/first_bit_reg" Type="SIG"/>
+                <Sig Name="adc_sen_o" Type="SIG"/>
+                <Sig Name="dac_sen_o" Type="SIG"/>
+                <Sig Name="adc_sdio_io" Type="SIG"/>
+                <Sig Name="adc_sclk_o" Type="SIG"/>
+                <Sig Name="F_sclk" Type="SIG"/>
+                <Sig Name="F_MOSI" Type="SIG"/>
+                <Sig Name="F_MISO" Type="SIG"/>
+                <Sig Name="F_CSn" Type="SIG"/>
+                <Sig Name="spi_master_top_inst/u_spi_master/mosi_o" Type="SIG"/>
+                <Sig Name="spi_master_top_inst/u_spi_master/miso_i" Type="SIG"/>
+                <Bus Name="spi_master_top_inst/u_spi_master/cs_n_o">
+                    <Sig Name="spi_master_top_inst/u_spi_master/cs_n_o:0" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/cs_n_o:1" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/cs_n_o:2" Type="SIG"/>
+                </Bus>
+                <Sig Name="spi_master_top_inst/u_spi_master/sclk_int" Type="SIG"/>
+                <Bus Name="spi_master_top_inst/u_spi_master/bit_cnt">
+                    <Sig Name="spi_master_top_inst/u_spi_master/bit_cnt:0" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/bit_cnt:1" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/bit_cnt:2" Type="SIG"/>
+                </Bus>
+                <Bus Name="spi_master_top_inst/u_spi_master/shift_reg_rx">
+                    <Sig Name="spi_master_top_inst/u_spi_master/shift_reg_rx:0" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/shift_reg_rx:1" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/shift_reg_rx:2" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/shift_reg_rx:3" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/shift_reg_rx:4" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/shift_reg_rx:5" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/shift_reg_rx:6" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/shift_reg_rx:7" Type="SIG"/>
+                </Bus>
+                <Bus Name="spi_master_top_inst/u_spi_master/shift_reg_tx">
+                    <Sig Name="spi_master_top_inst/u_spi_master/shift_reg_tx:0" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/shift_reg_tx:1" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/shift_reg_tx:2" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/shift_reg_tx:3" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/shift_reg_tx:4" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/shift_reg_tx:5" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/shift_reg_tx:6" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/shift_reg_tx:7" Type="SIG"/>
+                </Bus>
+                <Bus Name="spi_master_top_inst/u_spi_master/byte_count_i">
+                    <Sig Name="spi_master_top_inst/u_spi_master/byte_count_i:0" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/byte_count_i:1" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/byte_count_i:2" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/byte_count_i:3" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/byte_count_i:4" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/byte_count_i:5" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/byte_count_i:6" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/byte_count_i:7" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/byte_count_i:8" Type="SIG"/>
+                </Bus>
+                <Bus Name="spi_master_top_inst/u_spi_master/byte_cnt">
+                    <Sig Name="spi_master_top_inst/u_spi_master/byte_cnt:0" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/byte_cnt:1" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/byte_cnt:2" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/byte_cnt:3" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/byte_cnt:4" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/byte_cnt:5" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/byte_cnt:6" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/byte_cnt:7" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/byte_cnt:8" Type="SIG"/>
+                </Bus>
+                <Bus Name="spi_master_top_inst/u_spi_master/bram_wr_data_o">
+                    <Sig Name="spi_master_top_inst/u_spi_master/bram_wr_data_o:0" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/bram_wr_data_o:1" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/bram_wr_data_o:2" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/bram_wr_data_o:3" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/bram_wr_data_o:4" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/bram_wr_data_o:5" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/bram_wr_data_o:6" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/bram_wr_data_o:7" Type="SIG"/>
+                </Bus>
+                <Sig Name="spi_master_top_inst/u_spi_master/bram_we_o" Type="SIG"/>
+                <Bus Name="spi_master_top_inst/u_spi_master/bram_rd_data_i">
+                    <Sig Name="spi_master_top_inst/u_spi_master/bram_rd_data_i:0" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/bram_rd_data_i:1" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/bram_rd_data_i:2" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/bram_rd_data_i:3" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/bram_rd_data_i:4" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/bram_rd_data_i:5" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/bram_rd_data_i:6" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/bram_rd_data_i:7" Type="SIG"/>
+                </Bus>
+                <Bus Name="spi_master_top_inst/u_spi_master/bram_addr_o">
+                    <Sig Name="spi_master_top_inst/u_spi_master/bram_addr_o:0" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/bram_addr_o:1" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/bram_addr_o:2" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/bram_addr_o:3" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/bram_addr_o:4" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/bram_addr_o:5" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/bram_addr_o:6" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/bram_addr_o:7" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/bram_addr_o:8" Type="SIG"/>
+                </Bus>
+                <Bus Name="spi_master_top_inst/u_spi_master/state">
+                    <Sig Name="spi_master_top_inst/u_spi_master/state:0" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/state:1" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/state:2" Type="SIG"/>
+                </Bus>
+                <Sig Name="spi_master_top_inst/u_spi_master/done_o" Type="SIG"/>
+                <Sig Name="spi_master_top_inst/u_spi_master/busy_o" Type="SIG"/>
+                <Sig Name="spi_master_top_inst/u_spi_master/is_read" Type="SIG"/>
+                <Bus Name="spi_master_top_inst/u_spi_master/cs_sel">
+                    <Sig Name="spi_master_top_inst/u_spi_master/cs_sel:0" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/cs_sel:1" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/cs_sel:2" Type="SIG"/>
+                </Bus>
+                <Sig Name="spi_master_top_inst/u_spi_master/cpol" Type="SIG"/>
+                <Sig Name="spi_master_top_inst/u_spi_master/start_i" Type="SIG"/>
+                <Bus Name="spi_master_top_inst/u_spi_master/control_reg_i">
+                    <Sig Name="spi_master_top_inst/u_spi_master/control_reg_i:0" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/control_reg_i:1" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/control_reg_i:2" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/control_reg_i:3" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/control_reg_i:4" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/control_reg_i:5" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/control_reg_i:6" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_spi_master/control_reg_i:7" Type="SIG"/>
+                </Bus>
+                <Bus Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i">
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:0" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:1" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:2" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:3" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:4" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:5" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:6" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:7" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:8" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:9" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:10" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:11" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:12" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:13" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:14" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:15" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:16" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:17" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:18" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:19" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:20" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:21" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:22" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:23" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:24" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:25" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:26" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:27" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:28" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:29" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:30" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_data_a_i:31" Type="SIG"/>
+                </Bus>
+                <Bus Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o">
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:0" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:1" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:2" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:3" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:4" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:5" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:6" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:7" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:8" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:9" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:10" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:11" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:12" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:13" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:14" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:15" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:16" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:17" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:18" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:19" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:20" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:21" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:22" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:23" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:24" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:25" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:26" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:27" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:28" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:29" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:30" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/rd_data_a_o:31" Type="SIG"/>
+                </Bus>
+                <Sig Name="spi_master_top_inst/u_true_dp_ram/wr_en_a_i" Type="SIG"/>
+                <Bus Name="spi_master_top_inst/u_true_dp_ram/addr_a_i">
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/addr_a_i:0" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/addr_a_i:1" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/addr_a_i:2" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/addr_a_i:3" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/addr_a_i:4" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/addr_a_i:5" Type="SIG"/>
+                    <Sig Name="spi_master_top_inst/u_true_dp_ram/addr_a_i:6" Type="SIG"/>
+                </Bus>
+                <Bus Name="apb_pwdata">
+                    <Sig Name="apb_pwdata:0" Type="SIG"/>
+                    <Sig Name="apb_pwdata:1" Type="SIG"/>
+                    <Sig Name="apb_pwdata:2" Type="SIG"/>
+                    <Sig Name="apb_pwdata:3" Type="SIG"/>
+                    <Sig Name="apb_pwdata:4" Type="SIG"/>
+                    <Sig Name="apb_pwdata:5" Type="SIG"/>
+                    <Sig Name="apb_pwdata:6" Type="SIG"/>
+                    <Sig Name="apb_pwdata:7" Type="SIG"/>
+                    <Sig Name="apb_pwdata:8" Type="SIG"/>
+                    <Sig Name="apb_pwdata:9" Type="SIG"/>
+                    <Sig Name="apb_pwdata:10" Type="SIG"/>
+                    <Sig Name="apb_pwdata:11" Type="SIG"/>
+                    <Sig Name="apb_pwdata:12" Type="SIG"/>
+                    <Sig Name="apb_pwdata:13" Type="SIG"/>
+                    <Sig Name="apb_pwdata:14" Type="SIG"/>
+                    <Sig Name="apb_pwdata:15" Type="SIG"/>
+                    <Sig Name="apb_pwdata:16" Type="SIG"/>
+                    <Sig Name="apb_pwdata:17" Type="SIG"/>
+                    <Sig Name="apb_pwdata:18" Type="SIG"/>
+                    <Sig Name="apb_pwdata:19" Type="SIG"/>
+                    <Sig Name="apb_pwdata:20" Type="SIG"/>
+                    <Sig Name="apb_pwdata:21" Type="SIG"/>
+                    <Sig Name="apb_pwdata:22" Type="SIG"/>
+                    <Sig Name="apb_pwdata:23" Type="SIG"/>
+                    <Sig Name="apb_pwdata:24" Type="SIG"/>
+                    <Sig Name="apb_pwdata:25" Type="SIG"/>
+                    <Sig Name="apb_pwdata:26" Type="SIG"/>
+                    <Sig Name="apb_pwdata:27" Type="SIG"/>
+                    <Sig Name="apb_pwdata:28" Type="SIG"/>
+                    <Sig Name="apb_pwdata:29" Type="SIG"/>
+                    <Sig Name="apb_pwdata:30" Type="SIG"/>
+                    <Sig Name="apb_pwdata:31" Type="SIG"/>
+                </Bus>
+                <Sig Name="apb_pwrite" Type="SIG"/>
+                <Bus Name="apb_prdata">
+                    <Sig Name="apb_prdata:0" Type="SIG"/>
+                    <Sig Name="apb_prdata:1" Type="SIG"/>
+                    <Sig Name="apb_prdata:2" Type="SIG"/>
+                    <Sig Name="apb_prdata:3" Type="SIG"/>
+                    <Sig Name="apb_prdata:4" Type="SIG"/>
+                    <Sig Name="apb_prdata:5" Type="SIG"/>
+                    <Sig Name="apb_prdata:6" Type="SIG"/>
+                    <Sig Name="apb_prdata:7" Type="SIG"/>
+                    <Sig Name="apb_prdata:8" Type="SIG"/>
+                    <Sig Name="apb_prdata:9" Type="SIG"/>
+                    <Sig Name="apb_prdata:10" Type="SIG"/>
+                    <Sig Name="apb_prdata:11" Type="SIG"/>
+                    <Sig Name="apb_prdata:12" Type="SIG"/>
+                    <Sig Name="apb_prdata:13" Type="SIG"/>
+                    <Sig Name="apb_prdata:14" Type="SIG"/>
+                    <Sig Name="apb_prdata:15" Type="SIG"/>
+                    <Sig Name="apb_prdata:16" Type="SIG"/>
+                    <Sig Name="apb_prdata:17" Type="SIG"/>
+                    <Sig Name="apb_prdata:18" Type="SIG"/>
+                    <Sig Name="apb_prdata:19" Type="SIG"/>
+                    <Sig Name="apb_prdata:20" Type="SIG"/>
+                    <Sig Name="apb_prdata:21" Type="SIG"/>
+                    <Sig Name="apb_prdata:22" Type="SIG"/>
+                    <Sig Name="apb_prdata:23" Type="SIG"/>
+                    <Sig Name="apb_prdata:24" Type="SIG"/>
+                    <Sig Name="apb_prdata:25" Type="SIG"/>
+                    <Sig Name="apb_prdata:26" Type="SIG"/>
+                    <Sig Name="apb_prdata:27" Type="SIG"/>
+                    <Sig Name="apb_prdata:28" Type="SIG"/>
+                    <Sig Name="apb_prdata:29" Type="SIG"/>
+                    <Sig Name="apb_prdata:30" Type="SIG"/>
+                    <Sig Name="apb_prdata:31" Type="SIG"/>
+                </Bus>
+                <Sig Name="apb_pready" Type="SIG"/>
+                <Sig Name="apb_penable" Type="SIG"/>
+                <Sig Name="apb_pselx" Type="SIG"/>
+                <Bus Name="apb_paddr">
+                    <Sig Name="apb_paddr:0" Type="SIG"/>
+                    <Sig Name="apb_paddr:1" Type="SIG"/>
+                    <Sig Name="apb_paddr:2" Type="SIG"/>
+                    <Sig Name="apb_paddr:3" Type="SIG"/>
+                    <Sig Name="apb_paddr:4" Type="SIG"/>
+                    <Sig Name="apb_paddr:5" Type="SIG"/>
+                    <Sig Name="apb_paddr:6" Type="SIG"/>
+                    <Sig Name="apb_paddr:7" Type="SIG"/>
+                    <Sig Name="apb_paddr:8" Type="SIG"/>
+                    <Sig Name="apb_paddr:9" Type="SIG"/>
+                    <Sig Name="apb_paddr:10" Type="SIG"/>
+                    <Sig Name="apb_paddr:11" Type="SIG"/>
+                    <Sig Name="apb_paddr:12" Type="SIG"/>
+                    <Sig Name="apb_paddr:13" Type="SIG"/>
+                    <Sig Name="apb_paddr:14" Type="SIG"/>
+                    <Sig Name="apb_paddr:15" Type="SIG"/>
+                    <Sig Name="apb_paddr:16" Type="SIG"/>
+                    <Sig Name="apb_paddr:17" Type="SIG"/>
+                    <Sig Name="apb_paddr:18" Type="SIG"/>
+                    <Sig Name="apb_paddr:19" Type="SIG"/>
+                    <Sig Name="apb_paddr:20" Type="SIG"/>
+                    <Sig Name="apb_paddr:21" Type="SIG"/>
+                    <Sig Name="apb_paddr:22" Type="SIG"/>
+                    <Sig Name="apb_paddr:23" Type="SIG"/>
+                    <Sig Name="apb_paddr:24" Type="SIG"/>
+                    <Sig Name="apb_paddr:25" Type="SIG"/>
+                    <Sig Name="apb_paddr:26" Type="SIG"/>
+                    <Sig Name="apb_paddr:27" Type="SIG"/>
+                    <Sig Name="apb_paddr:28" Type="SIG"/>
+                    <Sig Name="apb_paddr:29" Type="SIG"/>
+                    <Sig Name="apb_paddr:30" Type="SIG"/>
+                    <Sig Name="apb_paddr:31" Type="SIG"/>
+                </Bus>
+            </Trace>
+            <Trigger>
+                <TU ID="1" Serialbits="0" Sig="apb_pready," Type="0"/>
+                <TU ID="2" Serialbits="0" Sig="apb_penable," Type="0"/>
+                <TE ID="1" MaxEvnCnt="1" MaxSequence="2" Resource="0"/>
+                <TE ID="2" MaxEvnCnt="1" MaxSequence="2" Resource="0"/>
+            </Trigger>
+        </Dataset>
+    </Core>
+</Project>

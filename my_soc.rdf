@@ -66,7 +66,13 @@
         <Source name="source/impl_1.xcf" type="Programming Project File" type_short="Programming">
             <Options/>
         </Source>
+        <Source name="source/impl_1/my_soc.rvl" type="Reveal" type_short="Reveal">
+            <Options/>
+        </Source>
         <Source name="source/impl_1/soc.pdc" type="Physical Constraints File" type_short="PDC">
+            <Options/>
+        </Source>
+        <Source name="source/impl_1/my_soc.rva" type="Reveal Analyzer Project File" type_short="RVA">
             <Options/>
         </Source>
     </Implementation>

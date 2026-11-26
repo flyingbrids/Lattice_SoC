@@ -70,7 +70,7 @@ spi_status_t spi_transfer_to_slave(spi_slave_t slave, const uint8_t *tx_data,
 		return result;
 
 	if (rx_data != NULL) {
-		for (uint16_t i = 0; i < byte_count; ++i) {
+		for (uint16_t i = 0; i < SPI_MAX_TRANSFER_BYTES; ++i) {
 			if (apb2fabric_spi_bram_read_byte(i, &rx_data[i]) !=
 					APB2FABRIC_STATUS_OK)
 				return SPI_STATUS_APB_ERROR;
@@ -88,6 +88,7 @@ spi_status_t spi_transfer_round_robin(const uint8_t *tx_data,
 		SPI_SLAVE_DAC,
 		SPI_SLAVE_FLASH
 	};
+	uint8_t rx_data[SPI_MAX_TRANSFER_BYTES];
 
 	if (tx_data == NULL || byte_count == 0U ||
 			byte_count > SPI_MAX_TRANSFER_BYTES)
@@ -100,7 +101,7 @@ spi_status_t spi_transfer_round_robin(const uint8_t *tx_data,
 		if (failed_slave != NULL)
 			*failed_slave = slaves[i];
 		spi_status_t result = spi_transfer_to_slave(slaves[i], tx_data,
-				NULL, byte_count);
+				rx_data, byte_count);
 		if (result != SPI_STATUS_OK) {
 			return result;
 		}

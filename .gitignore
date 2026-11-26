@@ -33,7 +33,10 @@
 # Reveal debugger / programmer / trace artifacts
 *.rva
 *.rvl
+!/source/impl_1/*.rva
+!/source/impl_1/*.rvl
 *.rvs
 *.svf
 *.trc
 *.xcf
+*.recovery
