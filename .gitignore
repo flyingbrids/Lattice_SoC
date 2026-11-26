@@ -1,0 +1,38 @@
+# Build and generated directories
+/build/
+/impl_1/
+/.metadata/
+/my_soc_tcr.dir/
+/sge/
+/verification/
+/misc/
+/riscv_mc_helloworld/Debug/
+/riscv_mc_helloworld/build/
+/riscv_mc_helloworld/.settings/
+
+# Propel Builder generated files in /my_soc (keep only top-level wrapper)
+/my_soc/*
+!/my_soc/my_soc_Top.v
+
+# Radiant & Propel root-level IDE state, logs, dumps, and generated artifacts
+/.ng_run_manager.ini
+/.setting.ini
+/*.bin
+/flist_design.f
+/my_soc_tcl.html
+/promote.pfl
+/promote.xml
+/reportview.xml
+*.log
+*.dmp
+*.sbx
+
+# Eclipse launch configs
+*.launch
+
+# Reveal debugger / programmer / trace artifacts
+*.rva
+*.rvl
+*.rvs
+*.svf
+*.trc

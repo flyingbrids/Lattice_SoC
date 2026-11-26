@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RadiantProject version="4.2" radiant="2025.2.0.48.0" title="my_soc" device="LIFCL-17-7MG121I" performance_grade="7_High-Performance_1.0V" family_int="je5d00" device_int="je5d15" package_int="CSFBGA121" operation_int="IND" speed_int="10" default_implementation="impl_1">
+    <Options/>
+    <Implementation title="impl_1" dir="impl_1" description="impl_1" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="my_soc_Top">
+            <Option name="include path" value="."/>
+            <Option name="top" value="my_soc_Top"/>
+        </Options>
+        <Source name="build/propel/my_soc/my_soc/lib/latticesemi.com/module/pll0/1.9.1/pll0.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="build/propel/my_soc/my_soc/lib/latticesemi.com/module/apb0/1.3.0/apb0.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="build/propel/my_soc/my_soc/lib/latticesemi.com/ip/system0/2.4.0/system0.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="build/propel/my_soc/my_soc/lib/latticesemi.com/ip/uart0/1.4.0/uart0.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="my_soc/my_soc_Top.v" type="Verilog" type_short="Verilog">
+            <Options top_module="my_soc_Top"/>
+        </Source>
+        <Source name="build/propel/my_soc/my_soc/lib/latticesemi.com/ip/gpio0/1.8.0/gpio0.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="build/propel/my_soc/my_soc/lib/latticesemi.com/module/ahbl0/1.4.0/ahbl0.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="build/propel/my_soc/my_soc/my_soc.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="build/propel/my_soc/my_soc/lib/latticesemi.com/ip/cpu0/2.8.0/cpu0.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="build/propel/my_soc/my_soc/lib/latticesemi.com/module/ahbl2apb0/1.2.0/ahbl2apb0.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="build/propel/my_soc/my_soc/lib/rapiscan/ip/APB2Fabric/1.0.3/APB2Fabric.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="source/impl_1/true_dp_ram.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="source/impl_1/spi_master_top.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="source/impl_1/spi_master_bram.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="source/impl_1/register_dispenser.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="source/impl_1/apb_to_reg_bridge.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="source/impl_1/apb_to_bram_bridge.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="source/impl_1/APB_spiltter.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="source/impl_1/soc.sdc" type="Pre-Synthesis Constraints File" type_short="SDC">
+            <Options/>
+        </Source>
+        <Source name="source/impl_1.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="source/impl_1/soc.pdc" type="Physical Constraints File" type_short="PDC">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="my_soc1.sty"/>
+</RadiantProject>

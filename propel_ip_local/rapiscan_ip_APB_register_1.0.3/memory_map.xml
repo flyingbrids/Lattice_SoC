@@ -1,0 +1,16 @@
+
+<lsccip:memoryMaps xmlns:lsccip="http://www.latticesemi.com/XMLSchema/Radiant/ip">
+    <lsccip:memoryMap>
+        <lsccip:name>apb_s00_model_mem_map</lsccip:name>
+        <lsccip:displayName>apb_s00_model_mem_map</lsccip:displayName>
+        <lsccip:description>AMBA3 target Model memory map</lsccip:description>
+        <lsccip:addressBlock>
+            <lsccip:name>memory</lsccip:name>
+            <lsccip:displayName>memory</lsccip:displayName>
+            <lsccip:description>memory</lsccip:description>
+            <lsccip:baseAddress>0</lsccip:baseAddress>
+            <lsccip:range>0x1000</lsccip:range>
+            <lsccip:width>32</lsccip:width>
+        </lsccip:addressBlock>
+    </lsccip:memoryMap>
+</lsccip:memoryMaps>
