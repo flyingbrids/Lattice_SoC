@@ -28,6 +28,7 @@ set sdk_root [file join $propel_home sdk]
 set make_executable [file join $sdk_root build_tools bin make.exe]
 set propel_executable [file join $propel_home builder rtf bin nt64 propelbldc.exe]
 set radiant_executable [file join $radiant_home bin nt64 radiantc.exe]
+set pgr_executable [file join $radiant_home programmer bin nt64 pgrcmd.exe]
 set firmware_project [file join $project_root riscv_mc_helloworld]
 set firmware_makefile [file join $firmware_project Makefile]
 set propel_script [file join $project_root propel_rebuild.tcl]
@@ -73,3 +74,35 @@ run_tool "Radiant synthesis through bitstream generation" $radiant_executable $r
 set bitstream [file join $project_root impl_1 my_soc_impl_1.bit]
 require_file $bitstream "Radiant bitstream"
 puts "\nBuild completed successfully: $bitstream"
+
+set xcf_file ""
+foreach xcf_candidate [list \
+    [file join $project_root source impl_1.xcf] \
+    [file join $project_root impl_1 impl_1.xcf] \
+    [file join $project_root impl_1 my_soc_impl_1.xcf]] {
+    if {[file isfile $xcf_candidate]} {
+        set xcf_file $xcf_candidate
+        break
+    }
+}
+
+if {$xcf_file eq ""} {
+    puts "\n=== FPGA programming skipped ==="
+    puts "No .xcf programming file found (expected [file join $project_root source impl_1.xcf])."
+} elseif {![file isfile $pgr_executable]} {
+    puts "\n=== FPGA programming skipped ==="
+    puts "Radiant Programmer executable not found: $pgr_executable"
+} else {
+    set pgr_log [file join $project_root impl_1 my_soc_pgr.log]
+    puts "\n=== FPGA programming ==="
+    puts "Using XCF file: $xcf_file"
+    flush stdout
+    if {[catch {exec $pgr_executable -infile $xcf_file -logfile $pgr_log >@stdout 2>@stderr} pgr_message]} {
+        puts stderr "FPGA programming did not complete (FPGA or cable may be unavailable): $pgr_message"
+        if {[file isfile $pgr_log]} {
+            puts stderr "Programmer log: $pgr_log"
+        }
+    } else {
+        puts "FPGA programmed successfully using: $xcf_file"
+    }
+}
